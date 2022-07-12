@@ -24,7 +24,7 @@ const Other = () => {
         <Row>
           {movie.map((result, index) => {
             return (
-          <Col md={4} className="movieWrapper" id="superhero" key={index}>
+          <Col md={4} className="movieWrapper" id="other" key={index}>
             <Card className="movieImage">
               <Image src={`${process.env.REACT_APP_IMG_PATH}/${result.poster_path}`} alt={`${result.title} Name`} className="images" />
               <div className="bg-dark">
